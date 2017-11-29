@@ -154,12 +154,12 @@ def zip_install(url, sha1, install_directory, path=None):
 def install_make(install_directory):
     """Download and install GNU Make"""
     zip_install(
-        url='http://downloads.sourceforge.net/project/gnuwin32/make/3.81/make-3.81-bin.zip',
+        url='http://rescomp-dev-1.st-andrews.ac.uk/~pgm5/make-3.81-bin.zip',
         sha1='7c1e23a93e6cb78975f36efd22d598241b1f0e8b',
         install_directory=install_directory,
         path=os.path.join(install_directory, 'bin', 'make.exe'))
     zip_install(
-        url='http://downloads.sourceforge.net/project/gnuwin32/make/3.81/make-3.81-dep.zip',
+        url='http://rescomp-dev-1.st-andrews.ac.uk/~pgm5/make-3.81-dep.zip',
         sha1='ee90e45c1bacc24a0c3852a95fc6dcfbcabe802b',
         install_directory=install_directory,
         path=os.path.join(install_directory, 'bin', 'libiconv2.dll'))
@@ -168,7 +168,7 @@ def install_make(install_directory):
 def install_nano(install_directory):
     """Download and install the nano text editor"""
     zip_install(
-        url='http://www.nano-editor.org/dist/v2.2/NT/nano-2.2.6.zip',
+        url='http://rescomp-dev-1.st-andrews.ac.uk/~pgm5/nano-2.2.6.zip',
         sha1='f5348208158157060de0a4df339401f36250fe5b',
         install_directory=install_directory)
 
@@ -176,7 +176,7 @@ def install_nano(install_directory):
 def install_nanorc(install_directory):
     """Download and install nano syntax highlighting"""
     tar_install(
-        url='http://www.nano-editor.org/dist/v2.2/nano-2.2.6.tar.gz',
+        url='http://rescomp-dev-1.st-andrews.ac.uk/~pgm5/nano-2.2.6.tar.gz',
         sha1='f2a628394f8dda1b9f28c7e7b89ccb9a6dbd302a',
         install_directory=install_directory,
         strip_components=1)
@@ -197,7 +197,7 @@ def install_nanorc(install_directory):
 def install_sqlite(install_directory):
     """Download and install the SQLite shell"""
     zip_install(
-        url='https://sqlite.org/2015/sqlite-shell-win32-x86-3090200.zip',
+        url='http://rescomp-dev-1.st-andrews.ac.uk/~pgm5/sqlite-shell-win32-x86-3090200.zip',
         sha1='25d78bbba37d2a0d9b9f86ed897e454ccc94d7b2',
         install_directory=install_directory)
 
